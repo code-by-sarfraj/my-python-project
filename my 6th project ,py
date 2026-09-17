@@ -1,0 +1,15 @@
+print("WELCOME TO LOGIN PAGE")
+
+username = input("Enter your username: ")
+password = input("Enter your password: ")
+
+user = "sarfraj"
+pas = "995577"
+
+if username == user:
+    if password == pas:
+        print("Login Successful")
+    else:
+        print("Login Failed")
+else:
+    print("Login Failed")
