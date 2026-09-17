@@ -11,3 +11,10 @@ print("I am", age, "years old.")
 print("I am from", city)
 print("My father name is", fname)
 print("my mother name is", mname)
+
+age = int(input("Enter your age "))
+
+if(age >= 18):
+    print("yes you can Drive")
+else:
+    print("No you can not Drive")
